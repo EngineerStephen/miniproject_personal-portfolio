@@ -193,11 +193,10 @@ section h2, section h3, section p {
     color: #ffffff;
     font-size: 1.5rem;
     margin-top: 20px;
-    margin-bottom: 120px;
     font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center; 
-    animation: bounce 2s infinite alternate;
+    animation: bounce 10s infinite alternate;
 }
 
 @keyframes bounce {
@@ -231,12 +230,6 @@ section h2, section h3, section p {
 
 
 
-.project-container > :nth-child(1) {
-    animation: zoomIn 10s ease-in-out ;
-    size-adjust: 10px;
-}
-
-
 @keyframes zoomIn {
     from {
         transform: scale(0.5);
@@ -246,24 +239,20 @@ section h2, section h3, section p {
     }
 }
 
-.project-container > :nth-child(2) {
-    animation: zoomIn 10s ease-in-out ;
-    size-adjust: px;
+.project-container > :nth-child(1),
+.project-container > :nth-child(2),
+.project-container > :nth-child(3),
+.project-container > :nth-child(4) {
+    animation: zoomIn 10s ease-in-out infinite;
 }
 
-.project-container > :nth-child(3) {
-    animation: zoomIn 10s ease-in-out ;
-    size-adjust: 10px;
-}
-
-.project-container > :nth-child(4) { 
-    animation: zoomIn 10s ease-in-out ;
-    size-adjust: 10px;
-}
-
-.project-container.h3 {
-    font-size: 2rem;
-    
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 
