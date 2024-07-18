@@ -243,7 +243,7 @@ section h2, section h3, section p {
 .project-container > :nth-child(2),
 .project-container > :nth-child(3),
 .project-container > :nth-child(4) {
-    animation: zoomIn 10s ease-in-out infinite;
+    animation: zoomIn 3s ease-in-out;
 }
 
 @keyframes zoomIn {
