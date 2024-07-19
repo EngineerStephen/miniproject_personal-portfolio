@@ -1,22 +1,19 @@
 # Personal Portfolio Project
 
 ## Overview
-This project is designed to showcase Stephen Asiedu's skills, experiences, and projects through a visually appealing and interactive personal portfolio website built with HTML and CSS.
-
-Stephen Asiedu is highlighted for his proficiency in DevOps, software development, and people management, aiming to create a professional online presence.
+This project is designed to showcase my current skill and experience through a visually appealing and interactive personal portfolio website built with HTML and CSS.
 
 ## Project Features
 
 ### Home Page
-- Introduction to Stephen Asiedu with a brief bio and profile picture.
-- Welcome message to visitors.
+- An Introduction with a brief bio and profile picture.
+- A Welcome message
 - Professional color scheme and typography.
 - Styled profile picture with rounded corners and shadows.
 
 ### About Me Section
 - Detailed background and expertise of Stephen Asiedu.
 - Career achievements in DevOps, software development, and team leadership.
-- Invitation to explore the portfolio for work examples.
 
 ### Projects Section
 - Showcase of selected projects with project cards.
@@ -29,7 +26,6 @@ Stephen Asiedu is highlighted for his proficiency in DevOps, software developmen
 
 ### Navigation
 - Header with links to Stephen Asiedu's resume and LinkedIn profile.
-- Easy access to external resources for further information.
 
 ### Footer
 - Copyright notice indicating all rights reserved to Stephen Asiedu.
@@ -43,7 +39,7 @@ Stephen Asiedu is highlighted for his proficiency in DevOps, software developmen
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/EngineerStephen/personal-portfolio.git
+   git clone https://github.com/EngineerStephen/miniproject_personal-portfolio
    ```
 
 2. Open `index.html` in your web browser to view the portfolio.
